@@ -2,10 +2,12 @@
 This repository contains a mac version of our video filter framework. Once cloned, please complete the following steps to ensure you can start working immediately without wasting time closing a bunch of pop-ups:
 
 1. Copy the path of the `macosx64` folder inside <code>lib</code>.  ( the path is the string describing the folder location )
-2. Open Terminal and excecute the following command:  
+2. Copy the path of the `gstreamer-1.0` into `macosx64`
+3. Drag/Copy all the files within `Lib2` into `gstreamer-1.0` then delete the file `Lib2`
+4. Open Terminal and excecute the following command:  
   `spctl --add <paste path here>/*`    (note: you must include the /* )
-3. Copy the path of `gstreamer-1.0` that is inside `macosx64` Then excecute the command above.
-4. In the terminal, excecute the command again but this time pasting the gstreamer-1.0 path:  
+5. Copy the path of `gstreamer-1.0` that is inside `macosx64` Then excecute the command above.
+6. In the terminal, excecute the command again but this time pasting the gstreamer-1.0 path:  
   `spctl --add <paste path here>/*`    (note: you must include the /* )
   
 # That's It!
